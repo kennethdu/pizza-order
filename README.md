@@ -27,9 +27,9 @@ Create a website for a pizza company where a user can choose one or more individ
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **The program adds the prices of this.size, this.cheese, this.meat, and this.sauce to calculate the price** | Input: "Small":10, "average cheese":4, "bbq":2, "chicken":3 | Output: "Your Total Will Be 19 dollars" |
-| **The program takes the user input in the name and address field and alerts the user the pizza is en route for delivery** | Input: Name:"Kenneth" Address:"123 Main Street" | Output: "Thank you for ordering Kennethwe will deliver shortly to 123 Main Street!!! Believe in it!!!"|
 | **The program allows the user to choose the size, amount of cheese, sauce, and meat** | Input: Small, Average Cheese, BBQ, Chicken | You Ordered: a small, average cheese, bbq, chicken pizza|
+| **The program adds the prices of this.size, this.cheese, this.meat, and this.sauce to calculate the price** | Input: "Small":10, "average cheese":4, "bbq":2, "chicken":3 | Output: "Your Total Will Be 19 dollars" |
+| **The program takes the user input in the name and address field and alerts the user the pizza is en route for delivery** | Input: Name:"Kenneth" Address:"123 Main Street" | Output: "Thank you for ordering Kenneth we will deliver shortly to 123 Main Street!!! Believe in it!!!"|
 
 
 ## Known Bugs
