@@ -1,3 +1,17 @@
 #hideResults {
   display: none;
 }
+
+#headerPic, #deku {
+  width: 100px;
+  float: right;
+}
+
+#headColor {
+  color: black;
+}
+
+body {
+  background-color: #72a6f9;
+  color: white;
+}
