@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pizza Order! Nom nom!</title>
+<body>
+  <h1> Make your pizza order today! </h1>
+      <h2> Pick your pizza size! </h2>
+      <div class= "col-md-3">
+        <select class="form-control" id="size">
+        <option value="1">Small</option>
+        <option value="2">Medium</option>
+        <option value="3">Large</option>
+        </select>
+      </div>
+      <h2> Pick how much cheese you want! </h2>
+      <div class= "col-md-3">
+        <select class="form-control" id="cheese">
+        <option value="1">No Cheese</option>
+        <option value="2">Average</option>
+        <option value="3">Extra Cheese</option>
+        </select>
+      </div>
+      <h2> Pick your sauce! </h2>
+      <div class= "col-md-3">
+        <select class="form-control" id="sauce">
+        <option value="1">BBQ Sauce</option>
+        <option value="2">Traditional Tomato Sauce</option>
+        <option value="3">Alfredo</option>
+        </select>
+      </div>
+      <h2> Pick Your Meat! </h2>
+      <div class= "col-md-3">
+        <select class="form-control" id="meat">
+        <option value="1">Chicken</option>
+        <option value="2">Pepperoni</option>
+        <option value="3">Sardines</option>
+        </select>
+      </div>
+
+      <button class="btn btn-primary" type="submit">Submit</button>
+
+      <ul class="pizzaOrder">
+
+      </ul>
+
+
+</body>
+</head>
+</html>
