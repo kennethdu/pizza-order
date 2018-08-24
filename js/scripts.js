@@ -17,7 +17,7 @@ $(document).ready(function(){
     event.preventDefault();
     var name = $("#name").val();
     var address= $("#address").val();
-    alert("Thank you for ordering " + name + "we will deliver shortly to " + address +"!!! Believe in it!!1");
+    alert("Thank you for ordering " + name + "we will deliver shortly to " + address +"!!! Believe in it!!!");
   });
 });
 
@@ -35,18 +35,18 @@ function pizza(size, cheese, sauce, meat) {
   this.meat = meat;
 }
 
-pizza.prototype.order = function() {
-  return ("a " + this.size + ", " + this.cheese + ", " + this.sauce + ", " + this.meat + " pizza")
-}
-
 pizza.prototype.calculatePrice = function ()
 {
   return inputSize[this.size] + inputCheese[this.cheese] + inputSauce[this.sauce] + inputMeat[this.meat]
 }
 
+pizza.prototype.order = function() {
+  return ("a " + this.size + ", " + this.cheese + ", " + this.sauce + ", " + this.meat + " pizza")
+}
+//This would only be necessary if someone had multiple pizzas ordered, so I know this is a redundunt
 
 
-//My initial code until I realized we had to use a prototype to calculate the price.
+//This is my initial code until I realized we had to use a prototype to calculate the price. This would calculate the cost of multiple pizzas, so yes, I somehow came up with two solutions
 
 // var ingredientPrices = {"small":10, "medium":14, "large":18, "no cheese":0, "average cheese":4, "extra cheese":6, "bbq":2, "sauce":2, "alfredo":2, "chicken":3, "pepperoni":2, "sardines":4}
 // var total = 0;

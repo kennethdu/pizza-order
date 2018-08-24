@@ -7,11 +7,15 @@
   float: right;
 }
 
-#headColor {
-  color: black;
-}
-
 body {
   background-color: #72a6f9;
   color: white;
+}
+
+.container .jumbotron {
+  background-image: url("../img/pizza.png");
+  background-size: contain;
+  opacity: 3;
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
 }
