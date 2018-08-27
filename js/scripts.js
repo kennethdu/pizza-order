@@ -46,7 +46,7 @@ pizza.prototype.order = function() {
 //This would only be necessary if someone had multiple pizzas ordered, so I know this is a redundunt
 
 
-//This is my initial code until I realized we had to use a prototype to calculate the price. This would calculate the cost of multiple pizzas, so yes, I somehow came up with two solutions
+//This is my initial code until I realized we had to use a prototype to calculate the price. This would calculate the cost of multiple pizzas
 
 // var ingredientPrices = {"small":10, "medium":14, "large":18, "no cheese":0, "average cheese":4, "extra cheese":6, "bbq":2, "sauce":2, "alfredo":2, "chicken":3, "pepperoni":2, "sardines":4}
 // var total = 0;

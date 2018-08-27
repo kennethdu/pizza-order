@@ -1,4 +1,4 @@
-# _Beep Boop Translator_
+# _Pizza Order Application_
 
 #### _Friday Independent Project for Epicdous, 8.24.2018_
 
